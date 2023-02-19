@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+     <link rel="icon" href="logo.svg">
+   <style>
+    .mainc {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+    .mainc>div{
+        text-align: center;
+        width: 1000px;
+        height: 300px;
+        margin: 40px;
+        border: solid palevioletred 2px;
+        border-radius: 10px;
+    }
+    .container1{
+        background-image: url(https://wallpapers.com/images/high/boyfriend-and-girlfriend-sun-glare-zwzfhyc0vtia45b9.webp);
+    }
+    .container2{
+        background-image: url(https://wallpapers.com/images/high/aesthetic-sky-and-a-happy-person-3xyf6n1l8ljzke8f.webp);
+    }
+    .container3{
+        background-image: url(https://wallpapers.com/images/high/cycling-man-silhouette-sunset-3stw3h6hzdfrdkr5.jpg);
+        
+    }
+    .rbox{
+  display:inline-block;
+  width:300px;
+  text-align: center;
+}
+.s{
+  line-height:45% ;
+  border: 0%;
+}
+.mbox{
+  display:inline-block;
+  position: absolute;
+  left:600px;
+  width:300px;
+  text-align: center;
+
+}
+.lbox{
+  display:inline-block;
+  position: absolute;
+  right:10px;
+  width:300px;
+  text-align: center;
+}
+#foot{
+  color: black;
+  border: 2px solid;
+  border-color: black;
+  
+}
+
+
+   </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo.svg" width="80" height="80" alt="Logo">
+                <span style="font-family: 'Mynerve', cursive; font-weight: bolder;">THE BROKEN CLUB</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Values</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <button type="button" class="btn btn-primary ml-3">Login</button>
+                <button type="button" class="btn btn-warning ml-2">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-7">
+                        <h1>Welcome to The Broken Heart</h1>
+                        <p>This website is a platform for all the heart broken love failures.Here we consolidate them by conducting various activites and make then to participate and try to relief from their pain and sorrows</p>
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <img src="data:image/jpeg;base64,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" alt="Broken Heart patching">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="mainc">
+        <div class="container1">
+            <h1 style="color:rgb(225, 136, 20); font-family: 'Lobster', cursive;">Mission</h3>
+                <p style="color: #243763"> To develop interaction between broken souls and keep them engaged with exciting activites</p>
+        </div>
+        <div class="container2">
+            <h1  style="color:palevioletred; font-family: 'Lobster', cursive;">Vision</h3>
+                <p style="color: plum;"> To console a broken soul and keep them happy 
+                    By participating in various fields
+                </p>
+        </div>
+        <div class="container3">
+            <h1 style="color: black; font-family: 'Lobster', cursive;">Values</h3>
+            <p > To engage ourselves productively 
+                in various events such as 
+                activites volunteers programmes ,
+                 DJ nights ,rides,etc....
+                Keeping them busy and creating 
+                exploring oppurtinutes
+             </p>
+        </div>       
+    </div>
+    <div class="bt" style="text-align: center;  padding-bottom:  20px;" >
+    <a href="PAGE2.html"><button type="button" class="btn-primary" style="margin: auto;"  >Learn More</button>
+    </div></a>
+    <footer id="foot">
+        <div class="rbox">
+            <div class="s">
+                <p style="margin-top: 8px;">Contact info</p>
+            <p>+91 900900900</p>
+            <p style="margin-bottom: 8px;">Address:</p></div>
+            <div>#12,The Broken Heart,2st cross,1st main,rajavinayaka colony,jamshedpur,jharkhand</div>
+        </div>
+        <div class="mbox">
+            Copyright to KRYPONITES
+            <div style="padding-top: 10px; ">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="" style="height: 45px; width: 45px; margin-right: 10px;">
+                <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="" style="height: 45px; width: 45px; margin-right: 10px;">
+                <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="" style="height: 45px; width: 45px;">
+            </div>
+        </div>
+        <div class="lbox">
+            <p style="font-family: cursive;">
+                "Every ❤️ has a second chance "</p>
+        </div>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

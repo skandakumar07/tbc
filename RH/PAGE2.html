@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heading</title>
+        <style>
+            div{
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size:20px;
+                font-weight:bold;
+            }
+            
+            button
+            {
+                width:230px;
+                height:38px;
+                background-color:orchid;
+                shape-image-threshold: blueviolet;
+                border-radius: 45px;
+                
+            }
+            button:hover
+            {
+                background-color:lavender;
+            }
+            #container{
+                display:flex;
+                flex-wrap:wrap;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+            #container>div{
+                background-color:pink;
+                font-size: 20px;
+                margin: 20px;
+                padding: 10px;
+                width: 50%;
+            }
+            
+            @media(min-width:600px)
+            {
+                body{
+                    background-color:lavenderblush;
+                }
+            }
+            @media(max-width:599px)
+            {
+                body{
+                    background-color:#FFE7CC;
+
+                }
+            }
+
+            
+           
+            .grid-item{
+                background-color:orchid;
+                font-size: 20px;
+                padding: 50px;
+                text-align: center;
+            }
+           
+            p,
+            li{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            p{
+              font-weight: bolder;
+              font-size: 25px;
+              line-height:5px ;
+            }
+            .con{
+                display:list-item;
+                align-items: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="con">
+        <h1 style="color:black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;size: 30px; " > How the app works!!</h1>
+        <p>Dont wait start right nww!!!💗
+          
+         <!--<img src ="C:\Users\sindh\Downloads\hw it works.jpg" alt = " pic">-->
+         </p>
+         <span style=" align-items: center; width: 80%;">
+        <ul >      
+           <li> CREATE PROFILE !!</li>
+           <li>NOTIFICATION ABOUT THE EVENT</li>
+           <li>DATE AND TIME OF THE MEEET OR EVENT </li>
+           <li>NGO ACTIVITIVES</li>
+           <li>PRODUCT LAUNCH & MOVIE LAUNCH EVENTS</li>
+       </ul>
+    </span>
+      
+       
+
+       
+       <button style="display:inline-block ; position: absolute; right: 50px; top: 40px;">  CREATE UR PROFILE NOW💕 </button>
+       
+       <div id="container">
+          <div> THE BRAND </div>
+         
+         
+       <div id="grid">
+          <div class="grid-item">CONTEST</div>
+          <div class="grid-item">ADVERTISING</div>
+          <div class="grid-item">AGE GROUPS</div>
+          
+       </div>
+    </div>
+    </body>
+</html>
